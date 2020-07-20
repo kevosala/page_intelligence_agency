@@ -1,21 +1,10 @@
 let = $accordion = document.getElementById("accordion");
 
 let ciaData = null;
-//json scrapinghub
 
-/*
 fetch(
-  "https://app.scrapinghub.com/api/v2/datasets/kdybI1E79Ww/download?format=json"
+  "https://app.scrapinghub.com/api/v2/datasets/psz9zXnvK04/download?format=json"
 )
-*/
-
-//json local
-
-fetch("./cia.json")
-  .then((response) => {
-    return response.json();
-  })
-
   .then((response) => {
     return response.json();
   })
